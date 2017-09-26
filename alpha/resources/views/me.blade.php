@@ -5,7 +5,7 @@
 
   <h1>Moja prva Laravel stranica</h1>
 
-  <p>adafajfaskgasjlkdasldflaskdfaslkghlasj</p>
+  <p>adafajfaskgasjlkdasldflaskdfaslkhlasj</p>
 
 </body>
 
