@@ -18,3 +18,15 @@ Route::get('/', function () {
 Route::get('/me', function () {
     return view('me');
 });
+
+Route::get('/darkwelcome', function () {
+    return view('darkwelcome');
+});
+
+Route::get('/register', function () {
+    return view('register');
+});
+
+Route::get('/darkregister', function () {
+    return view('darkregister');
+});
