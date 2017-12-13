@@ -10,23 +10,15 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get("/", "AuthController@showLightLogin");
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get("/darkwelcome", "AuthController@showDarkLogin");
 
-Route::get('/me', function () {
-    return view('me');
-});
+Route::get("/register", "AuthController@showLightRegister");
 
-Route::get('/darkwelcome', function () {
-    return view('darkwelcome');
-});
+Route::get("/darkregister", "AuthController@showDarkRegister");
 
-Route::get('/register', function () {
-    return view('register');
-});
 
-Route::get('/darkregister', function () {
-    return view('darkregister');
-});
+
+
+
